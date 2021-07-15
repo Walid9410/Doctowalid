@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Nouveau sur doctoWalid</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+	</head>
+	<body>
+		<div class="register">
+			<h1>Identification</h1>
+			<div class="links">
+				<a href="{{ url_for('login') }}">Connexion</a>
+				<a href="{{ url_for('register') }}" class="active">Identification Patient</a>
+			</div>
+			<form action="{{ url_for('register') }}" method="post" autocomplete="off">
+
+
+				<input type="text" name="username" placeholder="Identifiant" id="username" required>
+
+				<label for="username">
+					<i class="fas fa-user"></i>
+				</label>
+
+				<input type="password" name="password" placeholder="Mots de passe" id="password" required>
+				<label for="username">
+					<i class="fas fa-lock"></i>
+				</label>
+
+
+				<input type="text" name="email" placeholder="Email" id="email" required>
+				<label for="email">
+						<i class="fas fa-envelope"></i>
+						</label>
+				<input type="text" name="phone" placeholder="Telephone" id="phone" required>
+				<label for="phone">
+						<i class="fas fa-phone"></i>
+						</label>
+
+						<div class="msg">{{ msg }}</div>
+				<input type="submit" value="Inscription">
+			</form>
+		</div>
+	</body>
+</html>

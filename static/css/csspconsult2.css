@@ -1,0 +1,19 @@
+body{
+    background: #ffffff;
+}
+
+video {
+  background-color: #435165;
+  border-radius: 7px;
+  margin: 10px 0px 0px 10px;
+  width: 530px;
+  height: 650px;
+}
+.btn_btn-primary_btn-lg {
+  margin: 5px 0px 0px 10px !important;
+  width: 1075px;
+  height: 100%;
+  background-color: #AED6F1 ;
+  font-size: 1.8rem;
+  text-align: center;
+}

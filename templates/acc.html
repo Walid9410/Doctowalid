@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/w3css/3/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<body>
+
+<!-- Navigation -->
+<nav class="w3-bar w3-black">
+  <a href="{{ url_for('profile') }}" class="w3-button w3-bar-item">Identification</a>
+
+</nav>
+
+<!-- Slide Show -->
+<section>
+  <img class="mySlides" src={{url_for('static',filename="med2.jpg")}}
+  style="width:100%">
+  <img class="mySlides" src={{url_for('static',filename="med3.jpg")}}
+  style="width:100%">
+  <img class="mySlides"  src={{url_for('static',filename="med4.jpg")}}
+  style="width:100%">
+</section>
+
+<!-- Band Description -->
+<section class="w3-container w3-center w3-content" style="max-width:600px">
+  <h2 class="w3-wide">DoctoWalid</h2>
+  <p class="w3-opacity"><i>La meilleure santé, c'est de ne pas sentir sa santé.</i></p>
+  <p class="w3-justify">Lancée en 2021, DoctoWalid est une plateforme permettant de réserver et de gérer des consultations médicales avec des médecins généralistes ou spécialistes. Elle est disponible sous forme d’application mobile, ou directement sur navigateur web.
+
+Les utilisateurs peuvent opter pour des consultations physiques, ou des téléconsultations vidéo. Le but de cet outil est d’améliorer l’efficacité des organisations médicales, et d’améliorer l’expérience des patients..</p>
+</section>
+
+<!-- Band Members -->
+<section class="w3-row-padding w3-center w3-light-grey">
+  <article class="w3-third">
+    <p>Papa Walid</p>
+    <img src={{url_for('static',filename="famille.jpg")}} alt="Random Name" style="width:100%">
+    <p>Papa le créteur de Walid</p>
+  </article>
+  <article class="w3-third">
+    <p>FRIHA WALID</p>
+    <img src={{url_for('static',filename="famille.jpg")}} alt="Random Name" style="width:100%">
+    <p> Walid le créateur</p>
+  </article>
+  <article class="w3-third">
+    <p>Maman Walid</p>
+    <img src={{url_for('static',filename="famille.jpg")}} alt="Random Name" style="width:100%">
+    <p>Maman la créatrice de Walid</p>
+  </article>
+</section>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <p class="w3-medium">
+  Created by Walid <a href="https://www.w3schools.com/w3css/default.as" target="_blank">DoctoWalid.css</a>
+  </p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>

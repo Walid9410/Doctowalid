@@ -1,0 +1,45 @@
+{% extends 'layout.html' %}
+
+{% block title %}Profile{% endblock %}
+
+{% block content %}
+<h2>Teleconsultation</h2>
+<div>
+
+	<body>
+		<div class="loginbox">
+	       	<h1 class="text" style="color: #5175c0;")>  Patients actuellement en salle d'attente : 0 </h1>
+	       	 	<form action="/pconsult" method="post">
+
+	         	  <p> Nombre de patient: 0 </p>
+
+	            <p id="demo"></p>
+
+	            {%if prenompatient != "Aucun patient" %}
+	              <a type="submit" href="pconsult"> Commencer la consultation</a>
+	            {% endif %}
+
+	     	   </form>
+		</div>
+	            <script type="text/javascript">
+	              var socket = io.connect('http://' + document.domain + ':' + location.port + '/load.html');
+
+	              socket.on( 'connect', function() {
+	                socket.emit( 'my event', {
+	                  data: 'User Connected'
+	                } )
+
+	                var form = $( 'form' ).on( 'submit', function( e ) {
+	                  e.preventDefault()
+	                  socket.emit( 'my event', {
+	                    rien : 'send'
+	                  } )
+	                } )
+	              } )
+
+	            </script>
+
+	 </body>
+	</html>
+</div>
+{% endblock %}

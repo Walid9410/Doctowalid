@@ -1,0 +1,71 @@
+{% extends 'layout2.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<h2>Page d'accueil</h2>
+
+
+<p>Enfin de retour Docteur {{ username }} !</p>
+
+<h2>Disponibilités</h2>
+<label>Mois</label>
+   <select name="Specialiste">
+     <option> </option>
+     <option>Janvier</option>
+     <option>Fevrier</option>
+     <option>Mars</option>
+     <option>Avril</option>
+     <option>Mai</option>
+     <option>Juin</option>
+     <option>Juillet</option>
+     <option>Aout</option>
+     <option>Septembre</option>
+     <option>Octobre</option>
+     <option>Novembre</option>
+     <option>Decembre</option>
+
+   </select>
+
+   <label>Date </label>
+      <select name="medecin">
+        <option> </option>
+        <option>1 Mai</option>
+        <option>2 Mai</option>
+        <option>3 Mai</option>
+        <option>4 Mai</option>
+        <option>5 Mai</option>
+        <option>6 Mai</option>
+        <option>7 Mai</option>
+        <option>8 Mai</option>
+        <option>9 Mai</option>
+        <option>10 Mai</option>
+        <option>11 Mai</option>
+        <option>12 Mai</option>
+        <option>13 Mai</option>
+        <option>14 Mai</option>
+        <option>15 Mai</option>
+        <option>16 Mai</option>
+        <option>17 Mai</option>
+        <option>18 Mai</option>
+        <option>19 Mai</option>
+        <option>20 Mai</option>
+        <option>21 Mai</option>
+        <option>22 Mai</option>
+        <option>23 Mai</option>
+        <option>24 Mai</option>
+        <option>25 Mai</option>
+        <option>26 Mai</option>
+        <option>27 Mai</option>
+        <option>28 Mai</option>
+        <option>29 Mai</option>
+        <option>30 Mai</option>
+        <option>31 Mai</option>
+
+
+
+      </select>
+
+      <a type="submit" href="inter_med_agenda2"> Donner vos Disponibilités</a>
+
+{% endblock %}

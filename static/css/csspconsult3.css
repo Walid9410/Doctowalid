@@ -1,0 +1,185 @@
+body {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  font-family: Lato;
+  height: 100%;
+  margin: auto;
+  text-shadow: 0 0px 2px rgba(245, 245, 245, 0.25);
+}
+
+#container {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.75);
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  background: white;
+  width: 400px;
+  height: 300px;
+  border-radius: 0px 5px 5px 5px;
+}
+
+.box-input {
+  text-align: right;
+}
+
+
+.box-input svg {
+  width: 400px;
+  height: 14rem;
+  vertical-align: top;
+  fill: currentColor;
+}
+
+form {
+  color: #fff;
+}
+
+#fileInput{
+  background: #435165;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  color: black;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 900;
+  margin: auto;
+  margin-top: 0.4rem;
+  overflow: auto;
+  width: 350px;
+  height: 43;
+  padding: 1rem 1rem;
+}
+
+.box.has-advanced-upload {
+  transition: all 0.15s ease-in-out, background-color 0.15s linear;
+}
+
+.box {
+  font-size: 1.25rem;
+  background-color: #808B96;
+  border: 4px solid #fff;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.75);
+  padding: 5rem 1rem;
+  width: 100%;
+  height: 258px;
+}
+
+.js .box-file {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.box-input label {
+  margin: auto;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+}
+
+.js .box-file + label * {
+  pointer-events: none;
+}
+
+.js .box-file:focus + label {
+  outline: 1px dotted #000;
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+button {
+  background: #435165;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  color: black;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 900;
+  margin: auto;
+  margin-top: 0.4rem;
+  overflow: auto;
+  width: 350px;
+  height: 40px;
+  padding: 1rem 1rem;
+}
+
+button:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+button:active {
+  box-shadow: none;
+}
+
+.box-uploading {
+  font-style: italic;
+}
+
+.box-success {
+  transition: appear-from-inside 0.25s ease-in-out;
+}
+
+.box__success {
+  animation: appear-from-inside 0.25s ease-in-out;
+}
+
+@keyframes appear-from-inside {
+  from {
+    transform: translateY(-50%) scale(0);
+  }
+  75% {
+    transform: translateY(-50%) scale(1.1);
+  }
+  to {
+    transform: translateY(-50%) scale(1);
+  }
+}
+
+.box-restart {
+  font-weight: 700;
+}
+
+input,
+textarea,
+select {
+  border-radius: 0;
+  border: none;
+}
+
+input {
+  line-height: normal;
+}
+
+.box-dragndrop,
+.box-icon,
+.box-uploading,
+.box-success,
+.box-error {
+  display: none;
+}
+
+.box.has-advanced-upload .box-dragndrop {
+  display: inline;
+}
+
+strong {
+  color: #fff;
+}
+
+
+.progress {
+
+margin: auto;
+background: #808B96;
+margin-top: 0.4rem;
+font-size: 1.5rem;
+
+
+}

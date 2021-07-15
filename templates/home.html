@@ -1,0 +1,55 @@
+{% extends 'layout.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<h2>Page d'accueil</h2>
+
+
+<p>Enfin de retour, {{ username }} !</p>
+
+<h2>Prise de rendez vous</h2>
+<label>Spécialité</label>
+   <select name="Specialiste">
+     <option> </option>
+     <option>Medecin generaliste</option>
+     <option>Gynecologue</option>
+     <option>Dermatologie</option>
+     <option>ORL</option>
+     <option>Cardiologie</option>
+     <option>Infectiologie</option>
+     <option>Dermatologue</option>
+     <option>Neurologie</option>
+     <option>Penumologie</option>
+     <option>Radiologie</option>
+     <option>Rhumatolgie</option>
+     <option>Urologie</option>
+     <option>Dentiste</option>
+     <option>Depistage Covid</option>
+     <option></option>
+   </select>
+
+   <label>Medecin</label>
+      <select name="medecin">
+        <option> </option>
+
+        <option>Dr hoceini</option>
+          <option>Dr raoul</option>
+          <option>Dr tiago</option>
+
+      </select>
+
+      <label>Etablissement</label>
+         <select name="Etablissement">
+           <option> </option>
+           <option>Centre santé Alfortville</option>
+           <option>Centre de santé Ivry</option>
+           <option>Centre de santé Vitry</option>
+           <option>Hopital Henri Mondor</option>
+           <option>Hopital Intercommunal</option>
+           <option>Hopital Corbeil</option>
+           <option>Pharmacie rO</option>
+         </select>
+
+<a type="submit" href="inter_med_agenda"> Prendre un rendez vous</a>
+{% endblock %}
