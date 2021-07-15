@@ -1,0 +1,10 @@
+{
+  "resourceType" : "Practioner"
+  "id": 4,
+  "username": "raoul",
+  "password": "didier",
+  "email": "raoul@gmail.com",
+  "phone": "0612586666",
+  "specialite": "neurologue",
+  "organization": "/fhir/Organization?_id=4"
+},

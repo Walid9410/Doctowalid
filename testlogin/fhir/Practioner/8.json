@@ -1,0 +1,10 @@
+{
+ "id": "8",
+ "ressourceType": "Practicor",
+ "Username": "contero",
+ "password": "julien",
+ "mail": "contero@gmail.com",
+ "phone": "0785458548",
+ "specialiste": "psychiatre",
+ "organization": "/fhir/Organization?_id=8"
+}

@@ -1,0 +1,10 @@
+{
+  "resourceType" : "Practioner"
+  "id": 6,
+  "username": "blaies",
+  "password": "benoit",
+  "email": "blaies@gmail.com",
+  "phone": "0641425024",
+  "specialite": "generaliste",
+  "organization": "/fhir/Organization?_id=6"
+},

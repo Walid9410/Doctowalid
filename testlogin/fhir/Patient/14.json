@@ -1,0 +1,9 @@
+{
+ "id": 14,
+ "ressourceType": "Patient",
+ "Username": "neymar",
+ "password": "psg1234",
+ "mail": "neymar@gmail.com",
+ "phone": "0754524525",
+ "organization": "/fhir/Organization?_id=13"
+}

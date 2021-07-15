@@ -1,0 +1,10 @@
+{
+  "resourceType" : "Practioner"
+  "id": 1,
+  "username": "marc",
+  "password": "test",
+  "email": "gagny@test.com",
+  "phone": "068745754",
+  "specialite": "generaliste",
+  "organization": "/fhir/Organization?_id=1"
+},

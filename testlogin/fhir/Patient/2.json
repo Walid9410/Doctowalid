@@ -1,0 +1,9 @@
+{
+  "ressourceType":"Patient",
+  "id": 2,
+  "username": "walid",
+  "password": "94",
+  "email": "wfriha.94140@gmail.com",
+  "phone": "0658745412 ",
+  "organization": "/fhir/Organization?_id=2"
+},

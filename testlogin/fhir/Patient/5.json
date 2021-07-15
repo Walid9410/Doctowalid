@@ -1,0 +1,9 @@
+{
+  "ressourceType":"Patient",
+  "id": 5,
+  "username": "assia",
+  "password": "1234",
+  "email": "assialarebeu@gmail.com",
+  "phone": "068558787 ",
+  "organization": "/fhir/Organization?_id=5"
+},

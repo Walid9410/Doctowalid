@@ -1,0 +1,9 @@
+{
+  "ressourceType":"Patient",
+  "id": 8,
+  "username": "erevan",
+  "password": "hJU54tximx2YvDt",
+  "email": "erevan@gmail.com",
+  "phone": "068785875 ",
+  "organization": "/fhir/Organization?_id=8"
+},

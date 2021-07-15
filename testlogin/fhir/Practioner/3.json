@@ -1,0 +1,10 @@
+{
+  "resourceType" : "Practioner"
+  "id": 3,
+  "username": "mourad",
+  "password": "figuig",
+  "email": "mourad@gmail.com",
+  "phone": "065257545",
+  "specialite": "Cardiologie",
+  "organization": "/fhir/Organization?_id=3"
+},

@@ -1,0 +1,10 @@
+{
+  "resourceType" : "Practioner"
+  "id": 7,
+  "username": "hoceini",
+  "password": "said",
+  "email": "said@gmail.com",
+  "phone": "0694925012",
+  "specialite": "neurologue",
+  "organization": "/fhir/Organization?_id=7"
+},

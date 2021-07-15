@@ -1,0 +1,9 @@
+{
+  "ressourceType":"Patient",
+  "id": 3,
+  "username": "mohamed",
+  "password": "momo",
+  "email": "moha@gmail.com",
+  "phone": "068787458",
+  "organization": "/fhir/Organization?_id=3"
+},

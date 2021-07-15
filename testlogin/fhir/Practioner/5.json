@@ -1,0 +1,10 @@
+{
+  "resourceType" : "Practioner"
+  "id": 5,
+  "username": "lutsman",
+  "password": "mathieu",
+  "email": "lutsman@gmail.com",
+  "phone": "0712282828",
+  "specialite": "generaliste",
+  "organization": "/fhir/Organization?_id=5"
+},

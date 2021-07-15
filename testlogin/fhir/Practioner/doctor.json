@@ -1,0 +1,28 @@
+[
+  {
+    "resourceType" : "Practioner"
+    "id": 1,
+    "username": "marc",
+    "password": "test",
+    "email": "gagny@test.com",
+    "phone": "068745754",
+    "specialite": "generaliste"
+  },
+  {
+    "resourceType" : "Practioner"
+    "id": 2,
+    "username": "salah",
+    "password": "egypte",
+    "email": "salah@gmail.com",
+    "phone": "0758985644",
+    "specialite": "dermatologue"
+  },
+  {
+    "resourceType" : "Practioner"
+    "id": 3,
+    "username": "mourad",
+    "password": "figuig",
+    "email": "mourad@gmail.com",
+    "phone": "065257545",
+    "specialite": "Cardiologie"
+  }

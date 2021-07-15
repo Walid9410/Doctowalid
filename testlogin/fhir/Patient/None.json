@@ -1,0 +1,10 @@
+{
+  "resourceType" : "Practioner"
+  "id": "None",
+  "username": "None",
+  "password": "None",
+  "email": "None",
+  "phone": "None",
+  "specialite": "None",
+  "organization": "/fhir/Organization?_id=None"
+},
